@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-project_nudance",
+  "version": "1.0.0",
+  "description": "Dance Website for Nucamp Bootstrap Portfolio Project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelseyLewis/NuDance_Portfolio_Project.git"
+  },
+  "author": "Kelsey Lewis and Tyler Hunstock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelseyLewis/NuDance_Portfolio_Project/issues"
+  },
+  "homepage": "https://github.com/KelseyLewis/NuDance_Portfolio_Project#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
