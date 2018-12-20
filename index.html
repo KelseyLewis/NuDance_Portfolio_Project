@@ -9,79 +9,61 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
         <link rel="stylesheet" href="css/styles.css">
      <title>NuDance Studio Home Page</title>
 </head>
 
 <body>
-
-    <header>
-        <div>
-            <div >
-                <div>
-                    <h1>NuDance Studio/h1>
-                    <p></p>
-                </div>
-                <!-- Accepts remaining content for xs screen sizes -->
-                <div>
+    <header class = "d-sm-none d-md-block">
+        <div class = "container">
+            <div class ="row-header">
+                <div class = "col-12" align="center">
+                    <h3>NuDance Studio</h3>
                 </div>
             </div>
         </div>
     </header>
-
-    <div>
-        <div>
-            <div>
-                <h3>H1</h3>
-            </div>
-            <div >
-                <!-- Accepts remaining content for xs, small, md screen size -->
-                <h2>A</h2>
-                <p>text</p>
+    <nav class="navbar navbar-custom navbar-expand-sm navbar-fixed-top">
+        <div class = "container">
+            <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#Navbar">
+                <span class = "navbar-toggler-icon"></span>NuDance Studio
+            </button>
+            <div class = "collapse navbar-collapse" id = "Navbar">
+                <ul class = "navbar-nav mx-auto">
+                    <li class = "nav-item active"><a class = "nav-link" href = "#">Home</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href = "#">Studio</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href = "#">Classes</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href = "#">Schedule</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href = "#">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
 
     <footer>
-        <div>
-            <div>             
-                <div>
-                    <h5>Links</h5>
-                    <ul class = "list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-12 mx-auto" align="center">
+                    <a class = "fa fa-facebook-square fa-2x" href="http://www.facebook.com/profile.php?id=">&nbsp;</a>
+                    <a class = "fa fa-instagram fa-2x" href="http://www.instagram.com">&nbsp;</a>
+                    <a class = "fa fa-twitter-square fa-2x" href="http://twitter.com/">&nbsp;</a>
+                    <a class = "fa fa-youtube-play fa-2x" href="http://youtube.com/">&nbsp;</a>
+                    <a class = "fa fa-yelp fa-2x" href="http://yelp.com"></a>
                 </div>
-                <div class = "col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+            </div>
+            <div class = "row">
+                <div class = "col-12" align="center">             
+                    <h6>NuDance Studio &middot; 123 Main Street, Tacoma, WA 98406 &middot; (253) 867-5309 &middot; <a href="nudance@gmail.com">nudance@gmail.com</a></h6>
+                </div> 
+            </div>
+            <div class = "row">
+                <div class = "col-12" align="center">             
+                    <p>© 2019 Tyler Hunstock and Kelsey Lewis</p>
                 </div>
-                <div>
-                    <div class = "text-center">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
-                    </div>
-                </div>
-           </div>
-           <div class = "row justify-content-center">             
-                <div class = "col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
-                </div>
-           </div>
-        </div>
+            </div>
+        </div>           
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
