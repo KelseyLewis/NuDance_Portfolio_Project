@@ -6,11 +6,6 @@ header {
 	margin-top: 30px;
 	background-color: #246ac5;
 }
-/*.jumbotron {
-    padding: 10px 5px 10px 5px;
-	margin: 0px auto;
-	text-align: center;
-}*/
 .row-header {
     margin: 0px auto;
     padding: 0px;
@@ -21,9 +16,10 @@ header {
     border-bottom: 1px ridge;
     min-height: 400px;
 }
-.navbar-custom {
-    background-color: #512DA8;
+.navbar{
+	background: rgb(95,158, 160);
 }
+
 /*header {
     padding: 50px 5px 50px 5px;
 	margin: 0px auto;
