@@ -1,0 +1,21 @@
+$lt-gray: #ddd;
+$text-white: #fff;
+
+#header {
+	background: $lt-gray;
+	color: $text-white;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	color: #cc0000;
+	border-bottom: 1px solid #000;
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+}
+
+h2 span {
+	background: $text-white;
+	padding: 0 10px;
+}
