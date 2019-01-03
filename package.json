@@ -4,9 +4,12 @@
   "description": "Dance Website for Nucamp Bootstrap Portfolio Project",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
   "repository": {
     "type": "git",
@@ -19,8 +22,7 @@
   },
   "homepage": "https://github.com/KelseyLewis/NuDance_Portfolio_Project#readme",
   "devDependencies": {
-    "add": "^2.0.6",
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.2",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
@@ -34,7 +36,10 @@
     "grunt-sass": "^2.1.0",
     "grunt-usemin": "^3.1.1",
     "jit-grunt": "^0.10.0",
-    "lite-server": "^2.2.2",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2",
     "time-grunt": "^1.4.0"
   },
   "dependencies": {
