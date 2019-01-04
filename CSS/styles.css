@@ -2,7 +2,13 @@
   background: #ddd;
   color: #fff; }
 
-h2 {
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.h2 {
   width: 100%;
   text-align: center;
   color: #cc0000;
@@ -13,3 +19,21 @@ h2 {
 h2 span {
   background: #fff;
   padding: 0 10px; }
+
+.text-adjust {
+  font-size: 1.5vw; }
+
+/*
+.carousel {
+    background: $background-dark;
+
+    .carousel-item {
+        height: $carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 500px;
+        }
+    }
+}*/

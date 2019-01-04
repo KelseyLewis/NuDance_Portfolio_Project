@@ -1,12 +1,25 @@
 $lt-gray: #ddd;
 $text-white: #fff;
 
+$carousel-item-height: 500px;
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+	margin:0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
 #header {
 	background: $lt-gray;
 	color: $text-white;
 }
 
-h2 {
+.row-content {
+    @include zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.h2 {
 	width: 100%;
 	text-align: center;
 	color: #cc0000;
@@ -19,3 +32,27 @@ h2 span {
 	background: $text-white;
 	padding: 0 10px;
 }
+
+.text-adjust {
+    font-size: 1.5vw;
+}
+
+.carousel {
+    background: $lt-gray;
+
+    .carousel-item {
+        height: $carousel-item-height;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 500px;
+            width: 50%
+        }
+        .carousel-caption {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}*/
