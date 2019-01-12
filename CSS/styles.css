@@ -1,17 +1,40 @@
-#header {
-  background: #ddd;
-  color: #fff; }
-
+/*#header {
+	background: $lt-gray;
+	color: $text-white;
+}*/
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
   min-height: 400px; }
 
-.h2 {
+.text-adjust {
+  font-size: 1.5vw; }
+
+.carousel {
+  background: #ddd; }
+  .carousel .carousel-item {
+    height: 500px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 500px;
+      width: 50%; }
+    .carousel .carousel-item .carousel-caption {
+      position: absolute;
+      top: 0;
+      right: 0; }
+
+/*Tyler's Stuff*/
+#header {
+  background: #5f9ea0;
+  color: #fff; }
+
+h2 {
   width: 100%;
   text-align: center;
-  color: #cc0000;
+  color: #5f9ea0;
   border-bottom: 1px solid #000;
   line-height: 0.1em;
   margin: 10px 0 20px; }
@@ -20,20 +43,25 @@ h2 span {
   background: #fff;
   padding: 0 10px; }
 
-.text-adjust {
-  font-size: 1.5vw; }
+.footer {
+  padding: 40px; }
 
-/*
-.carousel {
-    background: $background-dark;
+#box1 {
+  background: #5f9ea8;
+  color: #343a40; }
 
-    .carousel-item {
-        height: $carousel-item-height;
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 500px;
-        }
-    }
-}*/
+#box2 {
+  background: #343a40;
+  color: #fff; }
+
+#main-footer {
+  background: #5f9ea8;
+  color: #fff; }
+
+a {
+  color: inherit; }
+
+.fa-xs {
+  font-size: 0.5rem;
+  position: relative;
+  top: -1px; }
