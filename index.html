@@ -19,13 +19,11 @@
 </head>
 
 <body>
-    <header class = "d-none d-md-block m-2">
-        <div class = "container">
-            <div class ="row-header">
-                <div class = "col-12" align="center">
-                    <h3>NuDance Studio</h3>
-                </div>
-            </div>
+    <header id="header">
+        <h1 class="display-4 text-center text-dark">NuDance</h1>
+        <div class="container">
+          <div class="row">
+          </div>
         </div>
     </header>
     <nav class="navbar navbar-custom navbar-expand-sm sticky-top navbar-dark bg-dark mb-2">
@@ -105,36 +103,49 @@
         </div>
     </div>
 
-    <footer>
-        <div class = "container">
-            <div class = "row">
-                <div class = "col-12 mx-auto" align="center">
-                    <a class = "fa fa-facebook-square fa-2x" href="http://www.facebook.com/profile.php?id=">&nbsp;</a>
-                    <a class = "fa fa-instagram fa-2x" href="http://www.instagram.com">&nbsp;</a>
-                    <a class = "fa fa-twitter-square fa-2x" href="http://twitter.com/">&nbsp;</a>
-                    <a class = "fa fa-youtube-play fa-2x" href="http://youtube.com/">&nbsp;</a>
-                    <a class = "fa fa-yelp fa-2x" href="http://yelp.com"></a>
-                </div>
+<!-- FOOTER -->
+<section>
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+            <a href="http://twitter.com">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <a href="http://facebook.com">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <a href="http://google.com">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <a href="http://linkedin.com">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <a href="http://instagram.com">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <a href="http://pinterest.com">
+              <i class="fab fa-pinterest fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
             </div>
-            <div class = "row">
-                <div class = "col-12" align="center">             
-                    <h6>NuDance Studio &middot; 123 Main Street, Tacoma, WA 98406 &middot; (253) 867-5309 &middot; <a href="nudance@gmail.com">nudance@gmail.com</a></h6>
-                </div> 
-            </div>
-            <div class = "row">
-                <div class = "col-12" align="center">             
-                    <p>&copy; 2019 Tyler Hunstock and Kelsey Lewis</p>
-                </div>
-            </div>
-        </div>           
-    </footer>
+            <p class="text-light">Nudance Studio <i class="fas fa-circle fa-xs"></i> 123 Main St, Tacoma, WA 98406 
+              <i class="fas fa-circle fa-xs"></i> (253) 867-5309 <i class="fas fa-circle fa-xs"></i> nudance@gmail.com
+              <br>
+             &copy; <span id="year"></span> Kelsey Lewis & Tyler Hunstock</p>
+        </div>
+      </div>
+     </div>
+  </footer>
 
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>$('#year').text(new Date().getFullYear());</script>
     <!-- endbuild --> 
+
 </body>
 
 </html>
