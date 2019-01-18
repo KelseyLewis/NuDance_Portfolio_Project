@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#mycarousel").carousel({interval:5000});
+    $("#mycarousel").carousel({interval:4000});
     $("#carouselButton").click(function(){
         if ($("#carouselButton").children('span').hasClass('fa-pause'))
         {
@@ -14,5 +14,6 @@ $(document).ready(function(){
             $('#carouselButton').children('span').removeClass('fa-play');
             $('#carouselButton').children('span').addClass('fa-pause');
         }
+
     });
-};
+});

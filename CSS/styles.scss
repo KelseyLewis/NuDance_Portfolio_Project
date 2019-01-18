@@ -36,10 +36,21 @@ $carousel-item-height: 500px;
 		}
 	}
 
-	button {
+	#carouselButton {
 		position: absolute;
 		bottom: 0;
 		right: 0;
+		background: $dk-gray;
+		border: $dk-gray;
+	}
+	button:active{
+		outline: white;
+	}
+	.fa-pause {
+		color: white;
+	}
+	.fa-play {
+		color:white;
 	}
 }
 
