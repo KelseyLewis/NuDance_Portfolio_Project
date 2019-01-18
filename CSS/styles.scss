@@ -1,4 +1,4 @@
-$lt-gray: #ddd;
+$dk-gray: #808080;
 $text-white: #fff;
 
 $carousel-item-height: 500px;
@@ -7,12 +7,6 @@ $carousel-item-height: 500px;
 	margin: 0px auto;
 	padding: $pad-up-dn $pad-left-right;
 }
-
-/*#header {
-	background: $lt-gray;
-	color: $text-white;
-}*/
-
 .row-content {
 	@include zero-margin(50px,0px);
 	border-bottom: 1px ridge;
@@ -24,7 +18,7 @@ $carousel-item-height: 500px;
 }
 
 .carousel {
-	background: $lt-gray;
+	background: $dk-gray;
 
 	.carousel-item {
 		height: $carousel-item-height;
@@ -33,7 +27,7 @@ $carousel-item-height: 500px;
 			top: 0;
 			left: 0;
 			height: 500px;
-			width: 50%;
+			width: 65%;
 		}
 		.carousel-caption {
 			position: absolute;
