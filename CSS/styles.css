@@ -5,7 +5,7 @@
   min-height: 400px; }
 
 .text-adjust {
-  font-size: 1.5vw; }
+  font-size: 1em; }
 
 .carousel {
   background: #808080; }
@@ -33,6 +33,10 @@
     color: white; }
   .carousel .fa-play {
     color: white; }
+
+@media (max-width: 425px) {
+  .carousel .carousel-item img {
+    width: 100%; } }
 
 /*Tyler's Stuff*/
 #header {

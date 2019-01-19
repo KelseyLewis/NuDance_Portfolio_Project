@@ -13,8 +13,9 @@ $carousel-item-height: 500px;
 	min-height: 400px;
 }
 
+//FIX ME!!!
 .text-adjust {
-	font-size: 1.5vw;
+	font-size: 1em;
 }
 
 .carousel {
@@ -51,6 +52,12 @@ $carousel-item-height: 500px;
 	}
 	.fa-play {
 		color:white;
+	}
+}
+
+@media (max-width: 425px) {
+	.carousel .carousel-item img {
+		width: 100%;
 	}
 }
 
